@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 235px;
+}
+
+#controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+  
+button[data-type='hex'], button[data-type="rgb"] {
+    font-weight: 900;
+    border-radius: 50px;
+    margin: 20px;
+    padding: 25px 20px;
+  }
+
+button[data-type='hex']:hover, button[data-type='rgb']:hover {
+    cursor: pointer;
+  }
