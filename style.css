@@ -8,22 +8,29 @@ body {
 
 h1 {
     text-align: center;
-    margin-bottom: 235px;
+    margin-bottom: 150px;
+}
+#name {
+	font-size: 24px;
+	font-weight: 700;
+	margin-bottom: 60px;
 }
 
-#controls {
+#controls, #name {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-
+	color: black;
+	text-shadow: black;
 }
   
 button[data-type='hex'], button[data-type="rgb"] {
     font-weight: 900;
     border-radius: 50px;
-    margin: 20px;
+    margin: 25px;
     padding: 25px 20px;
+	border: 3px solid black;
   }
 
 button[data-type='hex']:hover, button[data-type='rgb']:hover {
