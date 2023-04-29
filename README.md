@@ -1,3 +1,3 @@
 # color-js
 
-## Deploy link: t https://raiska8.github.io/color-js/
+## Deploy link: t https://rai8888.github.io/color-js/
